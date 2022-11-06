@@ -1,0 +1,47 @@
+#advice{
+	color:black;
+	font-weight:bold;
+	text-align:center;
+}
+
+button{
+	position:relative;
+	top:1.5rem;
+	padding:1rem 1rem 1rem 1rem;
+	border:0;
+	margin:0;
+	width:max-content;
+	height:max-content;
+	background-color:green;
+	border-radius:99rem;
+	&:hover{
+		background-color:red;
+	}
+}
+
+#advice-div{
+	display:flex;
+	flex-direction:column;
+	width:85%;
+	align-items:center;
+	background-color:#1119;
+	height:min-content;
+	border-radius:1rem;
+}
+
+h3{
+text-transform	:uppercase;
+border:0;
+margin:0;
+
+}
+
+#container{
+	display:grid;
+	height:90vh;
+	place-items:center;
+}
+
+*{
+	color:white;
+}

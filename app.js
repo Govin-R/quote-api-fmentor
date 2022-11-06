@@ -7,7 +7,7 @@ async function getAdvice(){
 	let advice = await responce.json();
 	
   console.log(advice.slip.advice)
-  advice_area.innerText = advice.slip.advice;
+  advice_area.innerText = `"`+advice.slip.advice+`"`;
   number.innerText=advice.slip.id;
 }
 
