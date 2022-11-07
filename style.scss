@@ -1,47 +1,75 @@
 #advice{
-	color:black;
+	color:white;
 	font-weight:bold;
 	text-align:center;
+	letter-spacing:normal;
+	padding:0 1rem 1rem 1rem;
 }
 
 button{
 	position:relative;
-	top:1.5rem;
+	height:3.5rem;
+	width:3.5rem;
+	bottom:1.8rem;
 	padding:1rem 1rem 1rem 1rem;
+	background:url('./images/icon-dice.svg');
+	background-repeat:no-repeat;
+	background-position:center;
+	justify-self:center;
 	border:0;
 	margin:0;
-	width:max-content;
-	height:max-content;
-	background-color:green;
+
+	background-color:hsl(150, 100%, 66%);
 	border-radius:99rem;
 	&:hover{
 		background-color:red;
+	}
+	& img{
+		border:0;
+		margin:0;
+		padding:0;
 	}
 }
 
 #advice-div{
 	display:flex;
 	flex-direction:column;
-	width:85%;
 	align-items:center;
-	background-color:#1119;
-	height:min-content;
+	background-color:hsl(217, 19%, 24%);
+	padding:2rem 0;	
 	border-radius:1rem;
+	border:0;
+	margin:0;
+	
+	
 }
 
 h3{
 text-transform	:uppercase;
 border:0;
 margin:0;
-
+font-size:0.7rem;
+font-family:monospace;
+letter-spacing:2px;
+padding:1rem 0;
+justify-content:space-around;
 }
 
 #container{
 	display:grid;
-	height:90vh;
+	height:99vh;
 	place-items:center;
+	
+}
+#container-1{
+	display:grid;
+	grid-template-rows:auto;
 }
 
-*{
-	color:white;
+body{
+	color: hsl(150, 100%, 66%) ;
+	background-color:hsl(218, 23%, 16%);
+}
+#braker{
+	padding-bottom:1rem;
 }
