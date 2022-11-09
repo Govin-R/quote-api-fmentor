@@ -3,7 +3,12 @@
   font-weight: bold;
   text-align: center;
   letter-spacing: normal;
-  padding: 0 1rem 1rem 1rem;
+  padding: 0 1.2rem 1.2rem 1.2rem;
+  font-size: 1rem;
+}
+
+#advice-head {
+  padding-top: 0.2rem;
 }
 
 button {
@@ -20,9 +25,10 @@ button {
   margin: 0;
   background-color: hsl(150deg, 100%, 66%);
   border-radius: 99rem;
+  transition: all ease-out 0.1s;
 }
 button:hover {
-  background-color: red;
+  box-shadow: 0 0 2rem hsl(150deg, 100%, 65%);
 }
 button img {
   border: 0;
@@ -69,7 +75,14 @@ body {
 }
 
 #braker {
-  padding-bottom: 1rem;
+  padding: 0 1rem 1rem 1rem;
+  width: 80%;
+}
+
+@media (min-width: 400px) {
+  #container-1 {
+    width: 50%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
