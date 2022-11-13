@@ -60,7 +60,7 @@ h3 {
 
 #container {
   display: grid;
-  height: 99vh;
+  height: 80vh;
   place-items: center;
 }
 
